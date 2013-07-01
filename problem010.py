@@ -1,5 +1,3 @@
-import math
-
 max = 2000000
 prime = [True] * max;
 prime[0] = False
