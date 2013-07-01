@@ -1,14 +1,14 @@
 import math
 import time
 
-def is_prime(num):
+def is_prime(n):
     if(n == 2): return True
     if(n % 2 == 0): return False
     if(n < 9): return True
     if(n % 3 == 0): return False
-    x = int(math.sqrt(num)) + 1
+    x = int(math.sqrt(n)) + 1
     for i in range(5,x):
-        if(num%i==0):
+        if(n%i==0):
             return False
     return True
 
